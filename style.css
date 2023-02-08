@@ -17,7 +17,6 @@ body {
 
 .header h2 {
     font-size: 24px;
-
 }
 
 ul {
@@ -91,7 +90,6 @@ li {
     flex-direction: column;
     flex-wrap: wrap;
     padding: 100px 350px;
-    
 }
 
 strong {
@@ -119,9 +117,9 @@ button {
 
 .cta {
     margin: 80px;
-    padding: 20px 200px;
+    padding: 20px 100px;
     background-color: #4882F6;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -131,8 +129,8 @@ button {
 .words {
     margin-right: 100px;
     color: #F9faF8;
-
-
+    font-size: 20px;
+    font-weight: 700;
 }
 
 .footer {
