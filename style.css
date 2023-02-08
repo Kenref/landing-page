@@ -1,0 +1,144 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+}
+
+.header, .ul, .hero, .infographics, .quote {
+    padding-left: 250px;
+    padding-right:250px;
+}
+
+.header {
+    color: #F9faF8;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header h2 {
+    font-size: 24px;
+
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;    
+}
+
+li {
+    padding:10px;
+}
+
+.hero {
+    color: #F9faF8;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 70px;    
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+    font-size:18px;
+}
+
+.hero h1 {
+    font-weight: 1000;
+    font-size: 48px;
+}
+
+.main-section {
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+
+.hero img {
+    flex-grow: 1;
+}
+
+.info-header {
+    text-align: center;
+    font-weight: 1000;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.infographics {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 150px;
+    margin: 15px;
+}
+
+.section img {
+    padding-bottom: 10px;
+    border-radius: 25px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 100px 350px;
+    
+}
+
+strong {
+    align-self: flex-end;
+}
+
+button {
+    background-color:#4882F6;
+    color: white;
+    border-radius:5px;
+    padding:5px 20px;
+    font-weight: 700;
+}
+
+.cta button {
+    border: 1px solid white;
+    flex-shrink: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    margin: 80px;
+    padding: 20px 200px;
+    background-color: #4882F6;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.words {
+    margin-right: 100px;
+    color: #F9faF8;
+
+
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9faF8;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

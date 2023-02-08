@@ -1,2 +1,2 @@
 # landing-page
-Practice creating a landing page in css
+In this repo I will practice creating a simple landing page in css
